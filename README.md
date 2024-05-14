@@ -12,9 +12,9 @@ This repo is to extract features from images and create embeddings by YOLOv8. YO
 ```markdown
 python  yolo_extractor.py
 ```
-##Architecture
-![image](https://github.com/ycchen218/YOLOv8-Feature-Extractor/blob/main/git-image/yolov8.png)
-![image](https://github.com/ycchen218/YOLOv8-Feature-Extractor/blob/main/git-image/feature_extractor.png)
+## Architecture
+![image](https://github.com/ycchen218/YOLOv8-Feature-Extractor/blob/main/git_img/yolov8.png)
+![image](https://github.com/ycchen218/YOLOv8-Feature-Extractor/blob/main/git_img/feature_extractor.png)
 ## Detail
 1. I use the **global average pooling** to encode the image features from 3 dims to 2 dims, you can unuse it as you want.
 2. You can choose which YOLOv8 block you want to output by the attribute **layer_index**. (recommend 15~21)
